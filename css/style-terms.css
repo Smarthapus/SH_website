@@ -1,0 +1,118 @@
+/* reset */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* body defaults*/
+
+body{
+  margin: 0;
+  font-family: sans-serif, "Helvetica Neue",
+  Helvetica, Arial;
+  font-size= 17px;
+  line-height: 1.6;
+  font-weight: 275;
+}
+
+/* header */
+
+.header-parent {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  position: relative;
+  top:0;
+  left: 0;
+  right: 0;
+  height: 90px;
+}
+
+header div {
+  justify-content: center;
+}
+
+header img {
+height: 27px;
+margin-top: 10px;
+}
+
+header div a {
+  color: black;
+  text-decoration: none;
+}
+
+header div a span {
+  color: 161616;
+}
+
+a.logo > img,
+a.logo > span {
+  vertical-align: middle;
+}
+
+.space {
+  flex-grow: 1;
+  max-width: 600px
+}
+
+.left-buttons {
+  margin-left: 20px;
+}
+
+.logo img {
+  width: 105px;
+  height: auto;
+}
+
+/* main content */
+
+.main-parent {
+  background-color: white;
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.main-top {
+  margin-top: 50px;
+}
+
+.main-bottom {
+  margin-bottom: 50px;
+}
+
+.main-text-block p{
+  text-align: left;
+  max-width: 700px;
+  color: black;
+  font-size: 14px;
+  margin-left: 20px;
+  margin-right:20px;
+  margin-bottom:20px;
+}
+
+.main-text-block h2{
+  text-align: left;
+  max-width: 700px;
+  color: black;
+  font-size: 25px;
+  margin-left: 20px;
+  margin-right:20px;
+  margin-bottom:20px;
+}
+
+.main-text-block h3{
+  text-align: left;
+  max-width: 700px;
+  color: black;
+  font-size: 25px;
+  margin-left: 20px;
+  margin-right:20px;
+  margin-top: 50px;
+  margin-bottom:20px;
+}
+
+
